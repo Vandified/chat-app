@@ -3,6 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/Vandified.github.io/chat-app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vandified/chat-app.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
