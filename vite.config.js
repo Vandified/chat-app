@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['firebase/auth', 'firebase/app', 'firebase/firestore'] // ← Add this line
-  }
+  },
+  base: '/your-repo-name/', // 🔁 important!
 })
